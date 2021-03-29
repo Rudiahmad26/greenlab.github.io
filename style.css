@@ -1,169 +1,45 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, serif;
+
+.slider b{
+    font-size: 58px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.slider h5,
+.clients h3,
+.nav-wrapper a{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
-body{
-    width: 100%;
-    margin: 0;
+.parallax-container{
+    height: 20%;
+}
+.parallax img{
+    filter: grayscale(0.1);
+    opacity: 0.7 !important;
+}
+
+footer, section{
+    padding: 20px 0;
+}
+
+.clients img{
+    max-width: 200px;
+    filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.8));
+    margin-top: 10px;
+}
+.portofolio img{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width : 1000px){
+    .nav-wrapper a{
     font-size: 18px;
-  
+    }    
+    .slider b{
+        font-size: 26px;
+    }
+    .portofolio img{
+        margin-top: 5px;
+    }
 }
 
-header{
-    background: rgb(17, 33, 177);
-    width: 100%;
-    height: 50px;
-}
-
-h3{
-    padding-left: 10px; 
-    padding-top: 10px;
-    color: rgb(255, 255, 255);
-    size: 40px;
-    font-style: italic;
-}
-navbar{
-    background: rgb(10, 75, 173);
-    position: relative;
-}
-.container1{
-    width: 1080px;
-    height: 80px;
-    background: rgb(83, 148, 83);
-    border: 2px solid rgb(241, 232, 232);
-    margin-left: 150px;
-    margin-top: 50px;
-    padding-top: 50px;
-}
-.container2{
-    margin-left: 20px;
-    margin-top: 180px;
-    width: 50px;
-    height: 28px;
-    display: inline;
-    position: relative;
-    float: left;
-}
-.container3{
-    position: relative;
-    margin-left: 20px;
-    padding-top: 240px;
-    font-size: 14px;
-} 
-.container4{
-    position: absolute;
-    float: left;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-.container4 p{
-    margin-top: 0px;
-    color: ivory;
-    margin-left: 10px;
-    font-size: 20px;
-}
-.container5{
-    width: 800px;
-    height: 350px;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 5px;
-    display: inline;
-    float: left;
-}
-#navbar {
-    background-color: rgb(172, 27, 164);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: block;
-    transition: top 0.3s;
-    height: 100px;
-  }
-  #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  .konten{
-      margin-top: 120px;
-      margin-left: 10px;
-  }
-  footer{
-    width: 100%;
-    height: 500px;
-    background: rgb(171, 248, 171);
-    margin-bottom: 10px;
-}
-body, html {
-    height: 100%;
-}
-/* The hero image */
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/IMG_20210224_145108.jpg");
-  
-    /* Set a specific height */
-    height: 50%;
-  
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-top: 108px;
-  }
-  
-  /* Place text in the middle of the image */
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  input, textarea { 
-    padding: 9px; 
-    border: solid 1px #E5E5E5; 
-    outline: 0; 
-    font: normal 13px/100% Verdana, Tahoma, sans-serif; 
-    width: 200px; 
-    background: #FFFFFF; 
-    } 
-   
-textarea { 
-    width: 400px; 
-    max-width: 400px; 
-    height: 150px; 
-    line-height: 150%; 
-    } 
-   
-input:hover, textarea:hover, 
-input:focus, textarea:focus { 
-    border-color: #C9C9C9; 
-    } 
-   
-.form label { 
-    margin-left: 10px; 
-    color: #999999; 
-    } 
-   
-.submit input { 
-    width: auto; 
-    padding: 9px 15px; 
-    background: #617798; 
-    border: 0; 
-    font-size: 14px; 
-    color: #FFFFFF; 
-    } 
